@@ -1,0 +1,159 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #d4af37;
+}
+
+header {
+    background: linear-gradient(to right, #333, #111, #333);
+    padding: 10px 0;
+}
+
+.logotipo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    background-color: transparent;
+
+}
+.navbar-nav {
+    display: flex; /* Garante que os itens fiquem em linha */
+    gap: 50px; /* Define o espaçamento entre os itens, neste caso as palavras_ menu, ofertas, contatos, etc) */
+  font-size: x-large;
+}
+  
+.nav-link {
+    color: #d4af37 ;
+   
+}
+.nav-link:hover{/*isto é a configuraçao que surge quando paço o rato por cima do texto*/
+    background-color: rgb(218, 188, 97);
+    box-shadow: rgb(240, 146, 5);
+    font-weight: 600;
+    }
+.redes_sociais img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.fa-brands {
+    color: #f3c94c;
+    font-size: 30px;
+}
+.redes_sociais .facebook, 
+.redes_sociais .instagram{
+margin-top: auto;
+margin-bottom: auto;
+}
+
+
+
+.redes_sociais a {
+    text-decoration: none;
+}
+
+
+
+
+
+/* Estilos do cartão */
+.card-reis {
+    text-align: center;       /* Centraliza o conteúdo dentro do cartão */
+    border: 1px solid #ccc;   /* Borda leve para o cartão */
+    border-radius: 10px;      /* Bordas arredondadas */
+    background-color: #d6e7f4f1; /* Cor de fundo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    width: 390px;             /* Largura ajustada para um tamanho adequado */
+    height: 600px;             /* Altura ajustada automaticamente */
+    margin: 10px 500px;           /* Margem para dar espaçamento */
+    justify-content: center;  /* Centraliza horizontalmente */
+}
+
+/* Estilo do título */
+.card-title {
+    font-size: 30px; /* Tamanho da fonte ajustado */
+    color: #350570; /* Cor do título */
+    font-weight: bold;
+}
+
+
+/* Estilo da imagem */
+.card-image {
+    width: 300px;   /* Largura ajustada para a imagem */
+    height: auto;   /* Mantém a proporção da imagem */
+}
+
+
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Links do rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+}
+
+/* Ícones das redes sociais */
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+/* Logo do rodapé */
+.footer-logotipo {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Colunas do rodapé */
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Ajustes nas colunas */
+footer .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+    footer .row {
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    footer .col-md-4 {
+        margin-bottom: 15px;
+    }
+    
+    footer .col-md-4:nth-child(2) {
+        text-align: center; /* Garante que os links de navegação estejam centralizados em dispositivos móveis */
+    }
+}

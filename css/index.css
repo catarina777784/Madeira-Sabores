@@ -1,0 +1,318 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #d4af37;
+}
+
+header {
+    background: linear-gradient(to right, #333, #111, #333);
+    padding: 10px 0;
+}
+
+.logotipo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    background-color: transparent;
+
+}
+.navbar-nav {
+    display: flex; /* Garante que os itens fiquem em linha */
+    gap: 50px; /* Define o espaçamento entre os itens, neste caso as palavras_ menu, ofertas, contatos, etc) */
+  font-size: x-large;
+}
+  
+.nav-link {
+    color: #d4af37 ;
+   
+}
+.nav-link:hover{/*isto é a configuraçao que surge quando paço o rato por cima do texto*/
+    background-color: rgb(218, 188, 97);
+    box-shadow: rgb(240, 146, 5);
+    font-weight: 600;
+    }
+.redes_sociais img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.fa-brands {
+    color: #f3c94c;
+    font-size: 30px;
+}
+.redes_sociais .facebook, 
+.redes_sociais .instagram{
+margin-top: auto;
+margin-bottom: auto;
+}
+
+
+
+.redes_sociais a {
+    text-decoration: none;
+}
+
+
+/* Seção abaixo carrossel com caixa de texto à esquerda e imagem à direita */
+.highlight-section {
+    background-color: #333;
+}
+
+.text-box {
+    
+        width: 20%; /* Define que o texto vai ocupar metade da página */
+        padding: 15px; /* Adiciona padding interno ao texto */
+        margin-left: 40px; /* Aumenta a margem à esquerda do texto */
+        box-sizing: border-box; /* Garante que o padding e a largura total estejam calculados corretamente */
+        text-align: justify; /* texto justificado*/
+    }
+    
+
+    .animated-text .line {
+        opacity: 0; /* Esconde inicialmente */
+        transform: translateY(20px); /* Move ligeiramente para baixo */
+        animation: fadeInUp 1s ease forwards;
+      }
+      
+      .animated-text .line:nth-child(1) {
+        animation-delay: 0.5s; /* Primeira linha */
+      }
+      
+      .animated-text .line:nth-child(2) {
+        animation-delay: 2s; /* Segunda linha */
+      }
+      
+      .animated-text .line:nth-child(3) {
+        animation-delay: 3.5s; /* Terceira linha */
+      }
+      
+      .animated-text .line:nth-child(4) {
+        animation-delay: 5s; /* Quarta linha */
+      }
+      
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+
+
+   .btn-white-shadow {
+    background-color: rgb(243, 230, 134); /* Fundo branco */
+    color: #0c0c0c; /* Cor do texto (azul padrão do Bootstrap) */
+    border: 1px solid #f5e08e; /* Borda azul */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra preta */
+    box-shadow: 5px 5px 15px black ;
+    border-radius: 20px;
+  }
+  
+  .btn-white-shadow:hover {
+    background-color: #9a8033; /* Cor de fundo ao passar o mouse */
+    color: #f6f2f2; /* Cor do texto ao passar o mouse */
+    border-color: #cc9110; /* Cor da borda ao passar o mouse */
+  }
+  
+
+.image-right {
+    width: 40%;
+}
+
+
+/* Ajuste na imagem  com mise-in-place*/
+.image-right img {
+    width: 50%; /* A imagem agora terá 50% da largura disponível */
+    max-width: 350px; /* Limita o tamanho máximo da imagem */
+    margin-top: 30px; /* Aumenta a margem superior da imagem */
+    margin-right: 15px; /* Aumenta a margem à direita da imagem */
+    margin-left: 100px;
+    object-fit: cover; /* Garante que a imagem seja cortada de forma agradável para caber */
+    border-radius: 15px;
+box-shadow: 5px 5px 10px rgb(8, 8, 8) ;
+  }
+  
+  
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Links do rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+}
+
+/* Ícones das redes sociais */
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+/* Logo do rodapé */
+.footer-logotipo {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Colunas do rodapé */
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Ajustes nas colunas */
+footer .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+    footer .row {
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    footer .col-md-4 {
+        margin-bottom: 15px;
+    }
+    
+    footer .col-md-4:nth-child(2) {
+        text-align: center; /* Garante que os links de navegação estejam centralizados em dispositivos móveis */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Para dispositivos móveis, as colunas se tornam empilhadas */
+@media (max-width: 768px) {
+    footer .row {
+        flex-direction: column;
+        text-align: left;
+    }
+    footer .col-md-4 {
+        margin-bottom: 15px; /* Menor espaçamento entre as colunas */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add this CSS to your index.css or the relevant CSS file */
+
+
+.fixed-menu-button {
+  position: fixed; /* Fixed position on the screen */
+  top: 150px; /* Adjust based on header height */
+  right: 70px;
+  z-index: 1000;
+  width: 120px;
+  height: 120px;/* ajusta a sombra vermelha*/ 
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.fixed-menu-button:hover {
+  background-color: #cf0c0c; /* Darker shade on hover */
+}
+
+.menu-button-image {
+  width:100px; /* ajusta o tamanho do icon-simbolo menu com o barrete de pai natal*/
+  height: 100px; 
+}
+
+
+
+/* configuraçao do botao-topo*/
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.botao-topo img{
+    width: 50px;
+    background-color: rgba(189, 212, 213, 0.7);
+    box-shadow : 5px 6px 10px rgb(93, 104, 103);
+    border-radius: 15px;
+}
+.botao-topo{ /* este é o botao que manda*/
+    visibility: hidden;
+    bottom: 80px; /* este define a posição do botão a partir do footer. controla a altura da pagina*/
+    text-align: center;
+}
+.botao-topo-mostrar{
+    visibility: visible;
+    animation: fade-in 0.7s ease-in forwards;
+}
+.botao-topo-esconder{
+    animation: fade-out 1s ease-out forwards;
+}

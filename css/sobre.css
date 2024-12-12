@@ -1,0 +1,187 @@
+body {
+    background-color: #121212;
+    color: #d4af37;
+}
+
+header {
+    background: linear-gradient(to right, #333, #111, #333);
+    padding: 10px 0;
+}
+
+.logotipo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    background-color: transparent;
+
+}
+.navbar-nav {
+    display: flex; /* Garante que os itens fiquem em linha */
+    gap: 50px; /* Define o espaçamento entre os itens, neste caso as palavras_ menu, ofertas, contatos, etc) */
+  font-size: x-large;
+}
+  
+.nav-link {
+    color: #d4af37 ;
+   
+}
+.nav-link:hover{/*isto é a configuraçao que surge quando paço o rato por cima do texto*/
+    background-color: rgb(218, 188, 97);
+    box-shadow: rgb(240, 146, 5);
+    font-weight: 600;
+    }
+    .redes_sociais img
+    {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        transition: transform 0.3s;
+    }
+    .fa-brands {
+        color: #f3c94c;
+        font-size: 30px;
+    }
+    .redes_sociais .facebook, 
+    .redes_sociais .instagram{
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+    
+    
+    
+    .redes_sociais a {
+        text-decoration: none;
+    }
+
+
+.image-container {
+    display: flex; /* Exibe as imagens na horizontal */
+    justify-content: space-between; /* Adiciona espaço entre as imagens */
+    margin: 100px 0; /* Margem em cima e embaixo do contêiner */
+  }
+  
+  .image {
+    width: 200px; /* Define a largura de cada imagem */
+    height: 150px; /* Define a altura de cada imagem */
+    object-fit: cover; /* Ajusta a imagem para que cubra toda a área sem distorcer */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra nas imagens */
+    border-radius: 8px; /* Bordas arredondadas nas imagens */
+  }
+  
+
+  
+.fixed-menu-button {
+  position: fixed; /* Fixed position on the screen */
+  top: 150px; /* Adjust based on header height */
+  right: 70px;
+  z-index: 1000;
+  width: 120px;
+  height: 120px;/* ajusta a sombra vermelha*/ 
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.fixed-menu-button:hover {
+  background-color: #cf0c0c; /* Darker shade on hover */
+}
+
+.menu-button-image {
+  width:100px; /* ajusta o tamanho do icon-simbolo menu com o barrete de pai natal*/
+  height: 100px; 
+}
+  
+  
+
+  
+.custom-card {
+  background-color: rgba(235, 230, 166, 0,4); /* Cor de fundo com 40% de opacidade */
+  border-radius: 16px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(231, 202, 115, 0.1); /* Sombra suave */
+  margin-bottom: 50px !important; /* Força a aplicação do estilo */
+  border-radius: 20px;
+}
+
+
+
+  
+  /* CSS opcional para alterar a cor do texto no cartão */
+  .custom-card .card-body {
+    color: #0c0c0c; /* Cor do texto (pode alterar se desejar) */
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .rounded-circle {/* imagem da cozinheira */
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(8, 8, 8) ;
+  } 
+  .rounded-circle:hover{ /* imagem da cozinheira passando o rato */
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(8, 8, 8) ;
+    transform: scale(1.5) /* Aumenta o tamanho da imagem para 120% */
+}
+
+  /* Estilo padrão para o texto de contato */
+.contato:hover {
+  color: #61410d; /* Altere a cor para o que preferir */
+  background-color: #e1c876;
+  font-weight: bold;
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+  cursor: pointer; /* Muda o cursor para uma mãozinha, sugerindo que é clicável */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Transição suave */
+  transform: scale(1.1) 
+  
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+/* Links do rodapé */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f8f9fa;
+}
+
+/* Ícones das redes sociais */
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+/* Logo do rodapé */
+.footer-logotipo {
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Colunas do rodapé */
+footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Ajustes nas colunas */
+footer .col-md-4 {
+  margin-bottom: 20px;
+}

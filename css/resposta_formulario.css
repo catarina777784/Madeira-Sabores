@@ -1,0 +1,196 @@
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #d4af37;
+}
+
+header {
+    background: linear-gradient(to right, #333, #111, #333);
+    padding: 10px 0;
+}
+
+.logotipo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    background-color: transparent;
+
+}
+.navbar-nav {
+    display: flex; /* Garante que os itens fiquem em linha */
+    gap: 50px; /* Define o espaçamento entre os itens, neste caso as palavras_ menu, ofertas, contatos, etc) */
+  font-size: x-large;
+}
+  
+.nav-link {
+    color: #d4af37 ;
+   
+}
+.nav-link:hover{/*isto é a configuraçao que surge quando paço o rato por cima do texto*/
+    background-color: rgb(218, 188, 97);
+    box-shadow: rgb(240, 146, 5);
+    font-weight: 600;
+    }
+.redes_sociais img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.fa-brands {
+    color: #f3c94c;
+    font-size: 30px;
+}
+.redes_sociais .facebook, 
+.redes_sociais .instagram{
+margin-top: auto;
+margin-bottom: auto;
+}
+
+
+
+.redes_sociais a {
+    text-decoration: none;
+}
+
+
+
+
+
+/* Estilos do Cartão */
+
+
+.thank-you-card {
+    text-align: center;
+     background-color: #ebdb94; /* Fundo do cartão */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 14 14px 28px rgba(223, 206, 206, 0.827);
+    max-width: 400px; /* Largura máxima do cartão */
+    width: 100%; /* O cartão vai ocupar toda a largura até o limite de 400px */
+    
+
+    /* Centralização do cartão */
+    position: absolute; /* Permite posicionamento absoluto em relação ao body */
+    top: 260px; /* Coloca o cartão no meio verticalmente */
+    left: 50%; /* Coloca o cartão no meio horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para o centro exato */
+    border: 4px solid #b95b1c; /* Adiciona uma borda em destaque */
+    color: #5D4037; /* Cor do texto */
+}
+
+/* Contêiner da Imagem */
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 170px; /* Tamanho da imagem */
+    height: 100px; /* Altura da imagem */
+    object-fit: cover; /* Ajusta a imagem ao contêiner */
+    border: 2px solid #E07B39; /* Adiciona uma borda em destaque */
+}
+
+
+/* Título */
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #E07B39; /* Destaque laranja */
+    font-weight: bold;
+}
+
+/* Texto Descritivo */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #424242; /* Texto mais escuro */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Links do rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+}
+
+/* Ícones das redes sociais */
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+/* Logo do rodapé */
+.footer-logotipo {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Colunas do rodapé */
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Ajustes nas colunas */
+footer .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+    footer .row {
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    footer .col-md-4 {
+        margin-bottom: 15px;
+    }
+    
+    footer .col-md-4:nth-child(2) {
+        text-align: center; /* Garante que os links de navegação estejam centralizados em dispositivos móveis */
+    }
+}
+

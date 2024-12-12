@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live coding</title>
+
+  <link rel="stylesheet" href="../css/poligono.css">
+</head>
+<body>
+  <div class="presente">
+
+    <div class="hover">
+      <div class="lacos">
+        <div class="volta esq"></div>
+        <div class="volta dir"></div>
+      </div>
+      <div class="topo">
+        <div class="fita"></div>
+      </div>
+    </div>
+
+    <div class="caixa">
+      <div class="fita"></div>
+    </div>
+
+
+    <form action="https://api.staticforms.xyz/submit" method="post"> <!--o metodo é post em vez de get porque nao quero que fique visivel os dados no URL-->
+       <!-- o action é o meu destino, é para onde vou enviar a informação -->
+        <!-- CONFIGURAÇÕES PARA O FORMULÁRIO -->
+      <input type="hidden" name="accessKey" value="b39cc1c8-70c6-4eb4-984f-7eae5a519c69"> <!--Chave de configuração, que recebi no meu email, tirado do site: https://www.staticforms.xyz/-->
+      <input type="hidden" name="redirectTo" value="file:///C:/Users/catfc/Desktop/EINST/ufcd%209963_edi%C3%A7ao%20web/sabores_madeira/index.html"> <!-- URL da página a ser re-direcionada após envio da informação-->
+      <!-- o redirecto é a página de resposta. ex. obrigada, iremos contatar o mais rápido possivel, etc (é quase aquelas respostas automaticas) -->
+       <input type="hidden" name="replyTo" value="@"><!-- repluTo é se quiser reencaminhar o email para alguem -->
+      <input type="text" name="honeypot" style="display: none;">
+      <!-- FIM DAS CONFIGURAÇÕES PARA O FORMULÁRIO -->
+
+<button type="submit" class="btn btn-primary botao-enviar" value="submit">Solicitar informacao</button>
+<!--o primeiro btn significa botao ou seja, vai aparecer a maozinha para clicar. o btn-primary é o tipo de botao, ou seja, de cor azul-->
+  </div>
+
+
+
+
+
+
+  
+  
+</body>
+</html>

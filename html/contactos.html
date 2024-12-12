@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madeira Sabores</title>
+  <link rel="shortcut icon" href="./img/mini_logotipo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/contactos.css">
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- este link é para conseguir ter oicon do facebook alterado para amarelo.
+  alterei a cor do icon no seguinte site: https://fontawesome.com/search?q=face&o=r -->
+</head>
+<body>
+
+  <!-- Header com Logo, Navbar e links socciais -->
+  <header class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="../index.html">
+        <img src="../img/logotipo.png" alt="Logotipo do restaurante Madeira Sabores" class="logotipo">
+      </a>
+      
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid d-flex justify-content-end">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Início</a></li>
+              <li class="nav-item"><a class="nav-link" href="./sobre.html">Sobre</a></li>
+              <li class="nav-item"><a class="nav-link" href="./menu.html">Menu</a></li>
+              <li class="nav-item"><a class="nav-link" href="./contactos.html">Contatos</a></li>
+              <li class="nav-item"><a class="nav-link" href="./ofertas.html">Ofertas</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+      <div class="redes_sociais row" >
+        
+        <div class="instagram col">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="../img/instagram.png" alt="Instagram">
+        </a>
+      </div>
+      <div class="facebook col">
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="fa-brands fa-facebook" ></i> <!-- a cor do icon facebook alterada para amarelo-->
+        </a>
+        </div>
+       
+    </div>
+  </header>
+
+    <!-- Fixed Round Button with Image -->
+<a href="../html/ofertas.html" class="fixed-menu-button" aria-label="Ir para o Menu de Comida">
+  <img src="../img/menubotao.png" alt="Menu" class="menu-button-image">
+</a>
+
+<body>
+
+  <!-- Main Container -->
+<div class="main-container"style="margin-left: 50px;">
+  <!-- Coluna da Esquerda - Informações de Contato e Horário -->
+  <div class="left-column">
+
+    <!-- Informações de Contato -->
+    <div class="contatos-info">
+      <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Informações de Contato</h2>
+      <ulstyle="margin-left: 45px;>
+        <li style="color: white;margin-left: 15px;">Endereço: Rua da Queimada 255 Prior Velho, Loures, 7896-951 Viana do Castelo, Portugal</li>
+        <li style="color: white;margin-left: 15px;">Nº de telemóvel: +351 933325488</li>
+        <li style="color: white;margin-left: 15px;">Nº de telefone: 251555558</li>
+        <li style="color: white;margin-left: 15px;"><a href="mailto:reservas@quintadesantacatarina.com">reservas@madeirasabores.com</a></li>
+      </ul>
+    </div>
+ 
+ 
+    <!-- Horário de Funcionamento -->
+    <div class="horarios">
+      <h3 style="margin-top: 100px;font-family: Georgia, 'Times New Roman', Times, serif;">Horário de Funcionamento</h3>
+      <ul>
+        <li style="color: white;">Segunda a Sexta: 08:00 - 23:00</li>
+        <li style="color: white;">Sábado e Domingo: 09:00 - 23:00</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Coluna da Direita - Mapa -->
+  <div class="right-column" style="margin-right: 50px;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47651.36619070605!2d-8.850048497375367!3d41.71597879227465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd25b7cef6e86a73%3A0xfe4d167e5dd21dfd!2sViana%20do%20Castelo!5e0!3m2!1spt-PT!2spt!4v1714514730177!5m2!1spt-PT!2spt" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
+
+
+
+<div class="ajuda" style="margin-left: 40px;margin-bottom: 50px;margin-top: 60px;">
+  <h3 style="margin-top: 100px;margin-left: 40px; font-size: x-large;">Tem alguma dúvida? Estamos aqui para ajudar!</h3>
+  <p style="color: white;margin-left: 40px;">Entre em contato conosco e nossa equipa estará pronta para lhe atender.</p>
+</div>
+
+ 
+<div class="row"> 
+  <div class="col-md-6 formulario" style="height: 500px;"> <!--esta div é a que divide a pagina a metade (md-6). assim sendo tenho uma div destas para um formulario e a outra div noutro formulario para ficar um ao lado do outro.
+   Esta div tem o style height 500px, ou seja, define o tamanho do fundo bege do formulario. A div com a class row (que está antes desta div) faz com que os formularios iniciem na mesma linha. -->
+  <form action="https://api.staticforms.xyz/submit" method="post">
+ <!-- CONFIGURAÇÕES PARA O FORMULÁRIO -->
+      <input type="hidden" name="accessKey" value="b39cc1c8-70c6-4eb4-984f-7eae5a519c69">
+      <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/html/resposta_formulario.html"><!-- para ter este link tenho que abrir o show preview, copiar o link abrir no google, copiar o URL e depois colar aqui!  -->
+      <input type="hidden" name="replyTo" value="@">
+      <input type="text" name="honeypot" style="display: none;">
+      <!-- FIM DAS CONFIGURAÇÕES PARA O FORMULÁRIO -->
+       <!-- CAMPOS DO FORMULÁRIO (colocar um $ nos nomes dos campos)-->
+      
+
+
+<!-- Contêiner para os dois formulários lado a lado -->
+<!-- <div class="formulario-container" style="margin-left: 50px; margin-right: 50px;"> -->
+
+  <!-- Formulário de Envie-nos uma mensagem -->
+  <!-- <div class="formulario text-start left-form"> -->
+    <h2 style="font-weight: bold; font-size: xx-large;text-align: center;">Envie-nos uma mensagem</h2>
+    <form action="https://api.staticforms.xyz/submit" method="post">
+      <!-- CAMPOS DO FORMULÁRIO -->
+      <div class="form-floating mb-2" >
+        <input type="text" class="form-control" id="nome" placeholder="Insira nome" name="$nome" required style="font-size: 14px; height: 40px; padding: 5px 10px;">
+        <label for="nome" style="font-size: 14px;">Nome :</label>
+      </div>
+      <div class="form-floating mb-2">
+        <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="$email" required>
+        <label for="email" style="font-size: 14px;">Email:</label>
+      </div>
+      <div class="form-floating mb-2">
+        <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" name="$telefone" pattern="[0-9]{9}" required>
+        <label for="telefone" style="font-size: 14px;">Número de Telefone:</label>
+      </div>
+      <div class="form-floating mb-2">
+        <textarea class="form-control" placeholder="Digite sua mensagem" id="mensagem" name="$mensagem"  required></textarea>
+        <label for="mensagem" style="font-size: 14px;">Mensagem:</label>
+      </div>
+        
+
+      <button type="submit" class="btn btn-primary botao-enviar" >Solicitar Informação</button>
+    </form>
+  
+</div>
+
+<div class="col-md-6 formulario" >
+  <form action="https://api.staticforms.xyz/submit" method="post">
+    <!-- CONFIGURAÇÕES PARA O FORMULÁRIO -->
+          <input type="hidden" name="accessKey" value="b39cc1c8-70c6-4eb4-984f-7eae5a519c69">
+          <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/html/resposta_reserva.html"> <!-- para ter este link tenho que abrir o show preview, copiar o link abrir no google, copiar o URL e depois colar aqui!  -->
+          <input type="hidden" name="replyTo" value="@"> 
+          <input type="text" name="honeypot" style="display: none;">
+          <!-- FIM DAS CONFIGURAÇÕES PARA O FORMULÁRIO -->
+           <!-- CAMPOS DO FORMULÁRIO (colocar um $ nos nomes dos campos)-->
+          
+    
+  <!-- Formulário de Reserva de Mesa -->
+  <!-- <div class="formulario text-start right-form"> -->
+    <h1 style=" font-weight: bold; font-size: xx-large;text-align: center">Reserve uma mesa</h1>
+    <form action="processar_reserva.php" method="POST">
+      <div class="form-floating mb-2">
+        <input type="text" class="form-control" id="nome" name="nome"  required placeholder="Digite seu nome completo" >
+        <label for="nome" style="font-size: 14px;">Nome</label>
+      </div>
+      <div class="form-floating mb-2">
+        <input type="email" class="form-control" id="email" name="email" required placeholder="Digite seu e-mail" >
+        <label for="email" style="font-size: 14px;">Email:</label>
+      </div>
+      <div class="form-floating mb-2">
+        <input type="tel" class="form-control" id="telefone" name="telefone" required placeholder="Digite seu número de telefone" pattern="[0-9]{9}" >
+        <label for="telefone" style="font-size: 14px;">Número de Telefone:</label>
+      </div>
+      <div class="form-floating mb-2">
+        <input type="number" class="form-control" id="num_pessoas" name="num_pessoas" required placeholder="Digite o número de pessoas" min="1" max="40">
+        <label for="num_pessoas" style="font-size: 14px;">Número de Pessoas:</label>
+      </div>
+      
+      <div class="form-floating mb-2">
+        <input type="date" class="form-control" id="data" name="data" required >
+        <label for="data" style="font-size: 14px;color: #d4af37;">Data da Reserva:</label>
+      </div>
+      <div class="form-floating mb-2">
+        <input type="time" class="form-control" id="hora" name="hora" required >
+        <label for="hora" style="font-size: 14px;color: #d4af37;">Hora da Reserva:</label>
+      </div>
+      
+      <div class="form-floating mb-2">
+        <textarea class="form-control" id="observacoes" name="observacoes" rows="4" placeholder="Digite observações ou pedidos especiais"></textarea>
+        <label for="observacoes" style="font-size: 14px;">Observações:</label>
+      </div>
+      
+        <button type="submit" class="btn btn-primary botao-enviar">
+            Reservar
+        </button>
+        
+  
+  
+</form>
+</div>
+<!-- <label for="opcao" style="font-size: 14px;">Opção:</label>
+                  <select class="form-control mb-3" id="opcao" name="$opcao" style="font-size: 14px;">
+                  <option selected disabled>Selecione uma opção</option>
+                  <option value="1">Opção 1</option>
+                  <option value="2">Opção 2</option>
+                  <option value="3">Opção 3</option>
+                  </select> 
+              -->
+      <!-- o type text significa que é uma caixa para texto. O PLACEHOLDER É O TEXTO QUE APARECE DENTRO DAS CAIXAS A INDICAR O QUE É PARA PREENCHER, QUANDO COMEÇO A ESCREVER ISSO DESAPARECE.-->
+
+<!-- se colocar os <br><br> entre as linhas crio espaços, mas no meu caso está definido no css.-->
+                  <!-- se colocar o type range, é para fazer uma barra , por exemplo se quiser fazer uma barra para bom, menos, excelente... algo dogénero-->
+
+
+                
+
+          
+
+
+  <section id="faq">
+    <h2>Perguntas Frequentes</h2>
+    <div class="faq-container">
+      <div class="faq-item">
+        <input type="radio" name="faq" id="faq1" class="faq-toggle">
+        <label for="faq1" class="faq-question">1. Qual é o horário de funcionamento do restaurante?</label>
+        <p class="faq-answer">Nosso horário de funcionamento é de segunda a sexta-feira, das 08:00 às 23:00, e aos sábados e domingos das 09:00 às 23:00.</p>
+      </div>
+      
+      <div class="faq-item">
+        <input type="radio" name="faq" id="faq2" class="faq-toggle">
+        <label for="faq2" class="faq-question">2. É necessário fazer reserva?</label>
+        <p class="faq-answer">Não é necessário fazer reserva, mas é altamente recomendado para grupos superiores a 8 pessoas.</p>
+      </div>
+      
+      <div class="faq-item">
+        <input type="radio" name="faq" id="faq3" class="faq-toggle">
+        <label for="faq3" class="faq-question">3. Vocês têm opções vegetarianas ou veganas no cardápio?</label>
+        <p class="faq-answer">Sim, temos várias opções vegetarianas e veganas em nosso cardápio. Consulte nosso menu para mais detalhes!</p>
+      </div>
+      
+      <div class="faq-item">
+        <input type="radio" name="faq" id="faq4" class="faq-toggle">
+        <label for="faq4" class="faq-question">4. Posso pedir para entrega?</label>
+        <p class="faq-answer">Não oferecemos serviço de entrega.</p>
+      </div>
+      
+      <div class="faq-item">
+        <input type="radio" name="faq" id="faq5" class="faq-toggle">
+        <label for="faq5" class="faq-question">5. Como posso pagar a conta?</label>
+        <p class="faq-answer">Aceitamos pagamento em dinheiro, cartão de crédito e débito, e pagamentos via apps como MB Way.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-2">
+  <div class="container">
+    <div class="row text-center">
+      
+      <!-- Coluna 1: Redes Sociais -->
+      <div class="col-md-4">
+        <p style="margin-top: 50px;">Follow us</p>
+        <p>  
+          <div class="redes_sociais row" >
+        
+            <div class="instagram col">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="../img/instagram.png" alt="Instagram" style="margin-right: -140px;">
+            </a>
+          </div>
+          <div class="facebook col">
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook" style="margin-left: -140px;"></i> <!-- a cor do icon facebook alterada para amarelo-->
+            </a>
+            </div>
+           
+          </div>
+        </p>
+        <p><img src="../img/logotipo.png" alt="footer-logotipo" class="footer-logotipo" style="margin-top: 10px;"></p>
+      </div>
+
+      <!-- Coluna 2: Links de Navegação (Centro) -->
+      <div class="col-md-4">
+        <p style="margin-top: 20px;"><a href="../index.html" class="footer-link">Início</a></p>
+        <p><a href="../html/sobre.html" class="footer-link">Sobre</a></p>
+        <p><a href="../html/menu.html" class="footer-link">Menu</a></p>
+        <p><a href="../html/contactos.html" class="footer-link">Contatos</a></p>
+        <p><a href="../html/ofertas.html" class="footer-link">Ofertas</a></p>
+      </div>
+
+      <!-- Coluna 3: Contato e Políticas -->
+      <div class="col-md-4">
+        <p style="margin-top: 50px;"><a href="../html/contactos.html#reservas" class="footer-link" target="_blank">reservas@madeirasabores.com</a></p>
+        <p> <a href="http://www.livroreclamacoes.pt/Inicio/" target="_blank" rel="noopener noreferrer">Livro de Reclamações</a><!-- nota para o email usei a link em que abre uma página na minha páginas e para o livro de reclamações e a politica de privacidade usei o a blanck que abre noutro semparador -->
+        <p> <a href="https://ahresp.com/" target="_blank" rel="noopener noreferrer">Política de Privacidade</a>
+      
+      </div>
+     
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+</body>
+</html>

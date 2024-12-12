@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arvore de Natal</title>
+    <link rel="stylesheet" href="../css/arvore.css" />
+  </head>
+  <body>
+    <div class="tree">
+      <!-- A estrela no topo da árvore -->
+      <div class="star">
+        <div class="mini__star mini__star--1"></div>
+        <div class="mini__star mini__star--2"></div>
+        <div class="mini__star mini__star--3"></div>
+      </div>
+
+      <!-- Primeiro triangulo que compõe o corpo da árvore -->
+      <div class="triangle__1">
+        <div class="sticker"></div>
+        <div class="anime light"></div>
+      </div>
+      <div class="shadow__1"></div>
+
+      <!-- Segundo triangulo que compõe o corpo da árvore  -->
+      <div class="triangle__2">
+        <div class="sticker__8"></div>
+        <div class="sticker__9"></div>
+        <div class="anime light--1"></div>
+        <div class="anime light--2"></div>
+      </div>
+      <div class="shadow__2"></div>
+
+      <!-- Terceiro triangulo que compõe o corpo da árvore -->
+      <div class="triangle__3">
+        <div class="sticker__6"></div>
+        <div class="sticker__7"></div>
+        <div class="anime light--4"></div>
+        <div class="anime light--5"></div>
+        <div class="anime light--4"></div>
+      </div>
+      <div class="shadow__3"></div>
+
+      <!-- Terceiro triangulo que compõe o corpo da árvore  -->
+      <div class="triangle__4">
+        <div class="sticker__4"></div>
+        <div class="sticker__5"></div>
+        <div class="anime light--4"></div>
+        <div class="anime light--3"></div>
+        <div class="anime light--6"></div>
+      </div>
+
+      <!-- Caule da árvore -->
+      <div class="post__container">
+        <div class="post__shad"></div>
+        <div class="post post__1"></div>
+        <div class="post post__2"></div>
+        <div class="ball"></div>
+      </div>
+    </div>
+    <!-- Caixas de presentes -->
+    <div class="boxes">
+      <div class="box animate--3">
+        <div class="hold"></div>
+        <div class="cover"></div>
+        <div class="body"></div>
+        <div class="plate"></div>
+      </div>
+      <div class="box box--1 animate--1">
+        <div class="hold hold--1"></div>
+        <div class="cover cover--1"></div>
+        <div class="body body--1"></div>
+        <div class="plate"></div>
+      </div>
+      <div class="box box--2 animate--2">
+        <div class="hold hold--2"></div>
+        <div class="cover cover--2"></div>
+        <div class="body body--2"></div>
+        <div class="plate"></div>
+      </div>
+    </div>
+
+    <!-- Texto de feliz aniversário -->
+    <div class="text">
+      <h1 class="merry merry--0">Feliz natal</h1>
+      <h1 class="merry merry--1">e um</h1>
+      <h1 class="merry merry--2">Próspero</h1>
+      <h1 class="merry merry--3">2023</h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulário Moderno</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="container">
+        <form class="form">
+          <h2>Cadastro</h2>
+          <div class="input-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Seu nome completo" required>
+          </div>
+    
+          <div class="input-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Seu e-mail" required>
+          </div>
+    
+          <div class="input-group">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Crie uma senha" required>
+          </div>
+    
+          <button type="submit" class="btn-submit">Registar</button>
+        </form>
+      </div>
+
+
+
+
+
+      <div class="campo-nome mb-2">
+        <label for="nome" style="visibility: hidden;">Nome:</label>
+        <p class="etiqueta-nome">Nome:</p>
+        <input type="text" class="form-control" id="nome" 
+        placeholder="_" name="$nome" required>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      
+      <script>
+        const botaoTopo = document.querySelector(".botao-topo");
+      
+        window.addEventListener("scroll", function(event){
+          if (window.scrollY >= 100) {
+            botaoTopo.classList.add("botao-topo-mostrar");
+            botaoTopo.classList.remove("botao-topo-esconder");
+          } else {
+            botaoTopo.classList.add("botao-topo-esconder");
+          }
+        });
+      </script>
+            <div class="botao-topo sticky-bottom">
+                <center>
+                    <a href="#">
+                        <img src="./img/topo.png" alt="">
+                    </a>
+                </center>
+            </div>
+  </body>
+</html>

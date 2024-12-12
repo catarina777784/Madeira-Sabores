@@ -1,0 +1,263 @@
+/* Estilos gerais */
+body {
+    background-color: #121212;
+    color: #d4af37;
+}
+
+header {
+    background: linear-gradient(to right, #333, #111, #333);
+    padding: 10px 0;
+}
+
+.logotipo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-nav {
+    display: flex; /* Garante que os itens fiquem em linha */
+    gap: 50px; /* Define o espaçamento entre os itens */
+    font-size: x-large;
+}
+
+.nav-link {
+    color: #d4af37;
+}
+
+.nav-link:hover {
+    background-color: rgb(218, 188, 97);
+    box-shadow: rgb(240, 146, 5);
+    font-weight: 600;
+}
+
+.redes_sociais img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.fa-brands {
+    color: #f3c94c;
+    font-size: 30px;
+}
+.redes_sociais .facebook, 
+.redes_sociais .instagram{
+margin-top: auto;
+margin-bottom: auto;
+}
+
+
+
+.redes_sociais a {
+    text-decoration: none;
+}
+
+
+
+/* Estilo para o texto destacado */
+.text-light.text-highlight {
+    color: #d4af37 !important;
+}
+
+/* Estilo para o botão */
+.btn-white-shadow {
+    background-color: rgb(243, 230, 134);
+    color: #0c0c0c;
+    border: 1px solid #f5e08e;
+    box-shadow: 5px 5px 15px rgba(247, 245, 245, 0.259);
+    border-radius: 20px;
+    margin-left: 800px;
+}
+
+.btn-white-shadow:hover {
+    background-color: #9a8033;
+    color: #f6f2f2;
+    border-color: #cc9110;
+}
+
+/* Estilos para a imagem */
+.image-right img {
+    width: 180px;
+    max-width: 300px;
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-left: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(8, 8, 8);
+}
+
+
+
+
+
+
+/* Estilo para o texto com fundo de Natal */
+.texto_menu_natal {
+    background-image: url('../img/fundo_menu_natal.png');
+    background-size: cover;
+    background-position: center center;
+    color: rgb(13, 12, 12); /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2; /* Fundo de Natal ficará acima do fundo de Fim de Ano */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 400px; /* Garante altura suficiente para mostrar a imagem */
+}
+
+/* Estilo para o texto com fundo de Fim de Ano */
+.texto_menu_especial {
+    background-image: url('../img/fundo_menu_fim_de_ano.png');
+    background-size: cover;
+    background-position: center center;
+    color: rgb(13, 12, 12); /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    position: relative;
+    z-index: 1; /* Fundo de Fim de Ano ficará abaixo do fundo de Natal */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 400px; /* Garante altura suficiente para mostrar a imagem */
+    margin-bottom: 200px;
+  
+}
+
+
+
+
+
+/* Tipos de fontes usados para o menu */
+.tipo-fonte1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(147, 115, 11);
+    font-weight: bold;
+    font-size: medium;
+}
+
+.tipo-fonte2 {
+    font-family: sans-serif;
+    font-style: oblique;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Links do rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+}
+
+/* Ícones das redes sociais */
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+/* Logo do rodapé */
+.footer-logotipo {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Colunas do rodapé */
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Ajustes nas colunas */
+footer .col-md-4 {
+    margin-bottom: 20px;
+}
+
+
+
+
+  
+  .card-presente {
+   width: 200px; /* Define a largura para tornar o cartão mais estreito */
+    height: 97px; /* Mantém a proporção da imagem */
+    animation: bounce 1.5s infinite; /* Adiciona animação de "pulo" */
+    transition: transform 0.3s; /* Suaviza transformações */
+    position: relative;
+    background-color: rgb(240, 219, 159); /* Fundo branco translúcido */
+    border-radius: 10px; /* Arredonda bordas, opcional */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave ao redor */
+    top: -800px;  /* Ajuste para ficar na altura correta */
+    right: -1080px;  /* Ajuste para o lado direito da tela */
+    z-index: 10; /* Garante que o cartão fique acima do conteúdo */
+  }
+
+.card-title {
+    color: rgb(226, 55, 29); /* Cor do texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px; /* Ajusta o tamanho do texto */
+    text-align: center;
+    line-height: 0.6; /* Ajusta o espaçamento entre as linhas */
+    margin-top: 100px;
+    padding-top: 10px; /* Pode adicionar algum espaçamento na parte superior */
+
+}
+  .card-img-presente{
+    margin-top: 25px;
+    width: 200px; /* Define o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    animation: bounce 1.5s infinite; /* Adiciona animação de "pulo" */
+    transition: transform 0.3s; /* Suaviza transformações */
+    position: relative;
+    border-radius: 200px; /* Arredonda bordas, opcional */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave ao redor */
+  }
+
+  /* Efeito ao passar o mouse */
+  .presente-image:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente a imagem ao passar o mouse */
+  }
+  
+  /* Animação de "pulo" */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  

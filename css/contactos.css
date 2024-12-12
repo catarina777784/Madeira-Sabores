@@ -1,0 +1,375 @@
+body {
+  background: linear-gradient(to right, #333, #3b3b3b, #535151);
+  color: #d4af37;
+}
+
+header {
+  background: linear-gradient(to right, #333, #111, #333);
+  padding: 10px 0;
+}
+
+
+.logotipo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    background-color: transparent;
+
+}
+.navbar-nav {
+    display: flex; /* Garante que os itens fiquem em linha */
+    gap: 50px; /* Define o espaçamento entre os itens, neste caso as palavras_ menu, ofertas, contatos, etc) */
+  font-size: x-large;
+}
+  
+.nav-link {
+    color: #d4af37 ;
+   
+}
+.nav-link:hover{/*isto é a configuraçao que surge quando paço o rato por cima do texto*/
+    background-color: rgb(218, 188, 97);
+    box-shadow: rgb(240, 146, 5);
+    font-weight: 600;
+    }
+    .redes_sociais img
+    {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        transition: transform 0.3s;
+    }
+    .fa-brands {
+        color: #f3c94c;
+        font-size: 30px;
+    }
+    .redes_sociais .facebook, 
+    .redes_sociais .instagram{
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+    
+    
+    
+    .redes_sociais a {
+        text-decoration: none;
+    }
+
+/* Container principal */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;  /* Permite o conteúdo se ajustar conforme necessário */
+  gap: 40px;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Coluna da Esquerda - Informações de Contato e Horário */
+.left-column {
+  flex: 1 1 45%; /* Responsivo, ocupando até 45% do espaço */
+  padding: 20px;
+}
+
+/* Coluna da Direita - Mapa */
+.right-column {
+  flex: 1 1 45%; /* Responsivo, ocupando até 45% do espaço */
+  padding: 10px;
+}
+
+/* Informações de Contato */
+.contatos-info h2, .horarios h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+.contatos-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contatos-info li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.contatos-info a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Mapa - Ajustando o iframe */
+iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+.formulario{ /* cor de fundo de cada formulario*/
+  background-color: rgba(248, 241, 192, 0.953); /* Fundo com transparência */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 2px auto;
+
+}
+
+/* Para dividir o espaço igualmente entre os dois formulários */
+.formulario-container { 
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; /* Espaçamento entre os formulários */
+}
+
+.left-form, .right-form {
+  width: 48%; /* Largura dos formulários */
+  padding: 50px;
+}
+
+
+/* Estilo para os placeholders dentro da caixa */
+input::placeholder, textarea::placeholder {
+  color: black; /* Placeholder com cor preta */
+  font-size: 14px;
+  font-weight: normal; /* Texto normal */
+}
+.formulario-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.formulario {
+  width: 40%; /* Ocupa metade do espaço disponível, define o comprimento das caixas */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2, .formulario h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+/* Estilo do botão amarelo */
+button.botao-enviar {
+  background-color: #d4af37;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 2px 3px 2px rgb(139, 113, 18);
+  
+}
+
+button.botao-enviar:hover {
+  background-color: #c7a546;
+  color: white;
+  box-shadow: 2px 3px 2px rgb(232, 211, 132);
+}
+
+
+/* Estilo de formulário */
+.form-floating {
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  font-size: 14px;
+  height: 40px;
+  padding: 5px 10px;
+}
+
+textarea {
+  font-size: 14px;
+  height: 100px;
+  padding: 10px;
+}
+
+
+
+/* Estilos gerais para a seção FAQ - Perguntas Frequentes */
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#faq {
+  background-color: rgb(246, 222, 151); /* Cor de fundo suave */
+  padding: 50px 20px;
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+#faq h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+
+/* Contêiner que segura todas as perguntas */
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Estilos para cada item de pergunta e resposta */
+.faq-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.faq-question {
+  font-size: 1.25rem;
+  color: #0a0a0a; /* Cor para destacar a pergunta */
+  cursor: pointer;
+  margin: 0;
+}
+
+.faq-answer {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+  display: none; /* Resposta oculta inicialmente */
+}
+
+/* Mostrar a resposta ao clicar na pergunta */
+.faq-item input.faq-toggle:checked + label + .faq-answer {
+  display: block; /* Exibe a resposta */
+}
+
+/* Estilo para o input (radio) escondido */
+.faq-item input.faq-toggle {
+  display: none;
+}
+
+/* Alterando o cursor para pointer ao passar sobre o label */
+.faq-item label {
+  cursor: pointer;
+  color: #9e832b;
+  font-weight: bold;
+}
+
+.faq-item label:hover {
+  color: #0f0f0f;
+}
+
+/* Transição suave para o aparecimento da resposta */
+.faq-answer {
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+  
+  
+
+
+
+
+
+
+/* Estilo do rodapé */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+/* Links do rodapé */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f8f9fa;
+}
+
+/* Ícones das redes sociais */
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+/* Logo do rodapé */
+.footer-logotipo {
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Colunas do rodapé */
+footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Ajustes nas colunas */
+footer .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.fixed-menu-button {
+  position: fixed; /* Fixed position on the screen */
+  top: 150px; /* Adjust based on header height */
+  right: 70px;
+  z-index: 1000;
+  width: 120px;
+  height: 120px;/* ajusta a sombra vermelha*/ 
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.fixed-menu-button:hover {
+  background-color: #cf0c0c; /* Darker shade on hover */
+}
+
+.menu-button-image {
+  width:100px; /* ajusta o tamanho do icon-simbolo menu com o barrete de pai natal*/
+  height: 100px; 
+}
+  

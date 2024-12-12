@@ -1,0 +1,304 @@
+body {
+  background-color: #121212;
+  color: #d4af37;
+}
+
+header {
+  background: linear-gradient(to right, #333, #111, #333);
+  padding: 10px 0;
+}
+
+.logotipo {
+  width: 150px;
+  height: auto;
+}
+
+.navbar {
+  background-color: transparent;
+
+}
+.navbar-nav {
+  display: flex; /* Garante que os itens fiquem em linha */
+  gap: 50px; /* Define o espaçamento entre os itens, neste caso as palavras_ menu, ofertas, contatos, etc) */
+font-size: x-large;
+}
+
+.nav-link {
+  color: #d4af37 ;
+ 
+}
+.nav-link:hover{/*isto é a configuraçao que surge quando paço o rato por cima do texto*/
+  background-color: rgb(218, 188, 97);
+  box-shadow: rgb(240, 146, 5);
+  font-weight: 600;
+  }
+  .redes_sociais img
+  {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      transition: transform 0.3s;
+  }
+  .fa-brands {
+      color: #f3c94c;
+      font-size: 30px;
+  }
+  .redes_sociais .facebook, 
+  .redes_sociais .instagram{
+  margin-top: auto;
+  margin-bottom: auto;
+  }
+  
+  
+  
+  .redes_sociais a {
+      text-decoration: none;
+  }
+
+.image-right{
+width: 630px;
+margin-left: 80px;
+margin-right: 110px;
+}
+.texto_principal {
+    color: black;
+    font-size: 20px; /* Aumentando o tamanho da fonte */
+    text-align: center;
+    margin: 50px auto; /* Aumentando a margem superior e inferior */
+    padding: 0 20px;
+    max-width: 1000px;
+    line-height: 1.6;
+    margin-bottom: 100px; /* Adicione margem inferior de 50px ao conteúdo principal */
+}
+  
+  
+ .texto_principal p {
+    margin-bottom: 30px; /* Aumentando a margem inferior dos parágrafos */
+  }
+  
+  .fixed-menu-button {
+    position: fixed; /* Fixed position on the screen */
+    top: 150px; /* Adjust based on header height */
+    right: 70px;
+    z-index: 1000;
+    width: 120px;
+    height: 120px;/* ajusta a sombra vermelha*/ 
+    border-radius: 50%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+  }
+  
+  .fixed-menu-button:hover {
+    background-color: #cf0c0c; /* Darker shade on hover */
+  }
+  
+  .menu-button-image {
+    width:100px; /* ajusta o tamanho do icon-simbolo menu com o barrete de pai natal*/
+    height: 100px; 
+  }
+  
+
+
+
+
+/* Estilo do rodapé */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+/* Links do rodapé */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f8f9fa;
+}
+
+/* Ícones das redes sociais */
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+/* Logo do rodapé */
+.footer-logotipo {
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Colunas do rodapé */
+footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Ajustes nas colunas */
+footer .col-md-4 {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/*colocar o efeito scrool em vez de ser hoover com o rato.*/
+ @keyframes appear {
+    from {
+      /* opacity: 0.5; */
+      scale: 0.8;
+    }
+    to {
+      /* opacity: 1.0; */
+      scale: 1.0;
+    }
+  }
+
+  
+  
+  
+
+/* Título do Menu */
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #8A5A15;
+  margin-bottom: 20px;
+}
+
+/* Logotipo */
+.logotipo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Categorias */
+.category-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #8A5A15;
+  text-transform: uppercase;
+  border-bottom: 2px solid #8A5A15;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* Itens do Menu */
+.item {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px dashed #ccc;
+  
+}
+
+.preço {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #8A5A15;
+}
+
+/* Espaçamento entre seções */
+.row {
+  margin-top: 20px;
+}
+
+/* Estilo das colunas */
+.col-md-6 {
+  padding: 10px;
+  
+}
+.vegan-symbol {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 2px solid darkgreen; /* Contorno escuro */
+  border-radius: 50%; /* Forma circular */
+  font-size: 14px; /* Tamanho do "V" */
+  font-weight: bold; /* Texto em negrito */
+  color: darkgreen; /* Cor do "V" */
+  text-align: center; /* Centraliza o texto */
+  line-height: 20px; /* Alinha verticalmente */
+  margin-left: 5px; /* Espaçamento do texto do item */
+}
+
+.vegan-symbol::before {
+  content: "V"; /* Exibe o "V" */
+}
+.veg-symbol {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 2px solid green; /* Contorno verde claro */
+  border-radius: 50%; /* Forma circular */
+  font-size: 14px; /* Tamanho do "V" */
+  font-weight: bold; /* Texto em negrito */
+  color: green; /* Cor do "V" */
+  text-align: center; /* Centraliza o texto */
+  line-height: 20px; /* Alinha verticalmente */
+  margin-left: 5px; /* Espaçamento do texto do item */
+  position: relative;
+}
+
+.veg-symbol::before {
+  content: "V"; /* Exibe o "V" */
+}
+
+.veg-symbol::after {
+  content: ""; /* Folha */
+  width: 6px;
+  height: 10px;
+  background: green;
+  border-radius: 2px; /* Bordas arredondadas da folha */
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  transform: rotate(-45deg); /* Inclinação da folha */
+}
+
+/* Estilo para a legenda no rodapé (dos simbolos vegan e vegetariano)*/
+/* Estilo para a legenda no rodapé */
+.footer-legend {
+  font-size: 0.8rem; /* Texto menor */
+  color: #555; /* Cor mais suave */
+  text-align: center; /* Centraliza o texto */
+  margin-top: 1rem; /* Espaço superior */
+}
+
+.footer-legend span {
+  margin-left: -3.7rem; /* Espaço entre o texto e os símbolos */
+}
+
+.footer-legend p {
+  display: flex; /* Coloca os elementos em linha */
+  justify-content: center; /* Centraliza o conteúdo */
+  gap: 4rem; /* Espaço entre Vegan e Vegetariano */
+  margin: 0; /* Remove margens adicionais */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+    padding: 5px 0;
+  }
+}

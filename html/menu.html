@@ -1,0 +1,339 @@
+<!-- ofertas.html -->
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madeira Sabores</title>
+  <link rel="shortcut icon" href="./img/mini_logotipo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../css/menu.css">
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- este link é para conseguir ler oicon do facebook alterado para amarelo.
+  alterei a cor do icon no seguinte site: https://fontawesome.com/search?q=face&o=r -->
+</head>
+<body>
+  <!-- Header with Logo, Navbar, and Social Links -->
+  <header class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="../index.html">
+        <img src="../img/logotipo.png" alt="Logotipo do restaurante Madeira Sabores" class="logotipo">
+      </a>
+      
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid d-flex justify-content-end">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Início</a></li>
+              <li class="nav-item"><a class="nav-link" href="./sobre.html">Sobre</a></li>
+              <li class="nav-item"><a class="nav-link" href="./menu.html">Menu</a></li>
+              <li class="nav-item"><a class="nav-link" href="./contactos.html">Contatos</a></li>
+              <li class="nav-item"><a class="nav-link" href="./ofertas.html">Ofertas</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="redes_sociais row" >
+        
+        <div class="instagram col">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="../img/instagram.png" alt="Instagram">
+        </a>
+      </div>
+      <div class="facebook col">
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="fa-brands fa-facebook" ></i> <!-- a cor do icon facebook alterada para amarelo-->
+        </a>
+        </div>
+       
+    </div>
+  </header>
+
+  <section class="highlight-section d-flex p-4">
+    <div class="text-box flex-grow-1 p-3">
+      <h2 style="color: rgba(210, 182, 19, 0.925);margin-left: 30px;margin-top: 40px;">O nosso MENU!</h2>
+      <p class="text-light" style="text-align: justify;margin-left: 30px;">
+        A boa comida e o prazer à mesa são sempre os protagonistas, num espaço onde cada visita se torna uma experiência única. 
+        Para aqueles que buscam uma experiência ainda mais personalizada, existe a sugestão do chefe que se baseia num prato focado na partilha e no prazer de dividir bons momentos à mesa.</p>
+    </div>
+    <div class="image-right">
+      <img src="../img/menu.png" alt="Prato especial" class="rounded img-fluid">
+    </div>
+  </section>
+
+<!-- Fixed Round Button with Image -->
+<a href="../html/ofertas.html" class="fixed-menu-button" aria-label="Ir para o Menu de Comida">
+  <img src="../img/menubotao.png" alt="Menu" class="menu-button-image">
+</a>
+  
+<div class="container mt-5">
+  <!-- Cartão com o título Menu -->
+  <div class="card custom-card" style="max-width: 800px; margin: 0 auto; margin-bottom: 100px;">
+      <div class="card-body">
+        <img src="../img/logotipo.png" alt="logotipo" class="logotipo">
+        <h5 class="card-title" style="font-size: xx-large; font-weight: bold; color: rgb(138, 90, 21);">Menu</h5>
+        
+        <div class="row">
+            <!-- Coluna 1 -->
+            <div class="col-md-6">
+                <p class="category-title">ENTRADAS</p>
+                <p class="item">PÃO</p>
+                <p class="preço">0,45€</p>
+                <p class="item">BOLO DO CACO COM MANTEIGA DE ALHO</p>
+                <p class="preço">3,00€</p>
+                <p class="item">MANTEIGA</p>
+                <p class="preço">1,00€</p>
+                <p class="item">RISSOIS VARIADOS</p>
+                <p class="preço">1,20€</p>
+                <p class="item">AZEITONAS</p>
+                <p class="preço">2,00€</p>
+                <p class="item">MEXILHÃO À VINAGRETA</p>
+                <p class="preço">11,00€</p>
+                <p class="item">CAMARÃO À GUILHO</p>
+                <p class="preço">14,00€</p>
+
+                <p class="category-title">SALADAS</p>
+                <p class="item">SALADA DE TOMATE<span class="vegan-symbol"></span></p>
+                <p class="preço">6,00€</p>
+                <p class="item">SALADA MISTA</p>
+                <p class="preço">7,00€</p>
+                <p class="item">SALADA DE ATUM<span class="veg-symbol"></span></p>
+                <p class="preço">9,00€</p>
+                <p class="item">SALADA EUROPA<span class="veg-symbol"></span></p>
+                <p class="preço">9,50€</p>
+                <p class="category-title">PEIXE</p>
+                <p class="item">ESPADA</p>
+                <p class="preço">17,00€</p>
+                <p class="item">BACALHAU FRITO</p>
+                <p class="preço">19,00€</p>
+                <p class="item">BACALHAU ASSADO</p>
+                <p class="preço">20,00€</p>
+                <p class="item">POLVO À LAGAREIRO</p>
+                <p class="preço">22,00€</p>
+                <p class="item">ARROZ DE MARISCO</p>
+                <p class="preço">34,00€</p>
+            </div>
+
+            <!-- Coluna 2 -->
+            <div class="col-md-6">
+                <p class="category-title">CARNE</p>
+                <p class="item">BIFE DA VAZIA</p>
+                <p class="preço">18,00€</p>
+                <p class="item">BIFE 3 PIMENTAS</p>
+                <p class="preço">19,00€</p>
+                <p class="item">BITOQUE</p>
+                <p class="preço">12,00€</p>
+                <p class="item">NACO DE VITELA</p>
+                <p class="preço">19,00€</p>
+                <p class="item">CHURRASCO DE VITELA</p>
+                <p class="preço">19,00€</p>
+                <p class="item">PICANHA À BRASILEIRA</p>
+                <p class="preço">19,00€</p>
+                <p class="item">ESPETADA MADEIRENSE</p>
+                <p class="preço">22,00€</p>
+                <p class="item">FRANGO NO CHURRASCO</p>
+                <p class="preço">23,00€</p>
+                <p class="item">LOMBO DE PORCO ASSADO</p>
+                <p class="preço">24,00€</p>
+                <p class="item">CORDEIRO ASSADO</p>
+                <p class="preço">27,00€</p>
+                <p class="item">CARNE VINHO E ALHOS</p>
+                <p class="preço">19,00€</p>
+
+                <p class="category-title">SOBREMESA</p>
+                <p class="item">PUDIM</p>
+                <p class="preço">3,00€</p>
+                <p class="item">MOUSSE DE CHOCOLATE</p>
+                <p class="preço">3,00€</p>
+                <p class="item">ARROZ DOCE</p>
+                <p class="preço">3,50€</p>
+                <p class="item">GELADO</p>
+                <p class="preço">4,00€</p>
+                <p class="item">SALADA DE FRUTA</p>
+                <p class="preço">3,70€</p>
+            </div>
+            <div class="footer-legend">
+              <p>Vegan<span class="vegan-symbol"></span>        Vegetariano<span class="veg-symbol"></span>
+              </p>
+              <a href="../menu restaurante para QR2.pdf" target="_blank">
+                <img src="../img/codigo QR.png" alt="PDF do Menu" style="width: 100px;margin-bottom: 20px;margin-left: 600px; margin-top: -120px;">
+                
+              </a>
+              
+            </div>
+            
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="container mt-5">
+  <!-- Cartão com o título Bebidas -->
+  <div class="card custom-card" style="max-width: 800px; margin: 0 auto; margin-bottom: 300px;">
+      <div class="card-body">
+        <img src="../img/logotipo.png" alt="logotipo" class="logotipo">
+        <h5 class="card-title" style="font-size: xx-large; font-weight: bold; color: rgb(138, 90, 21);">Menu de Bebidas</h5>
+        
+        <div class="row">
+            <!-- Coluna 1 -->
+            <div class="col-md-6">
+              <p class="category-title">Bebidas sem alcool</p>
+                <p class="item">Sumo de Laranja Natural</p>
+                <p class="preço">3,50€</p>
+                <p class="item">Refrigerantes</p>
+                <p class="preço">2,50€</p>
+                <p class="item">Água 0,5l</p>
+                <p class="preço">1,50€</p>
+
+                <p class="category-title">VINHO DA MADEIRA</p>
+                <p class="item">Vinho Madeira Seco</p>
+                <p class="preço">18,00€</p>
+                <p class="item">Vinho Madeira Meio Doce</p>
+                <p class="preço">20,00€</p>
+                <p class="item">Vinho Madeira Doce</p>
+                <p class="preço">22,00€</p>
+
+                <p class="category-title">VINHOS</p>
+                <p class="item">Copo de vinho</p>
+                <p class="preço">3,00€</p>
+                <p class="item">Vinho do Porto Branco</p>
+                <p class="preço">25,00€</p>
+                <p class="item">Vinho do Porto Tawny</p>
+                <p class="preço">28,00€</p>
+                <p class="item">Vinho do Porto Ruby</p>
+                <p class="preço">30,00€</p>
+                <p class="item">Herdade do Esporão - Reserva Branco</p>
+                <p class="preço">18,00€</p>
+                <p class="item">Quinta dos Vales - "Casa Santa Vitória" Tinto</p>
+                <p class="preço">20,00€</p>
+
+                
+                <!-- Nova categoria de Cervejas -->
+                <p class="category-title">CERVEJAS</p>
+                <p class="item">Cerveja Sagres</p>
+                <p class="preço">2,50€</p>
+                <p class="item">Cerveja Super Bock</p>
+                <p class="preço">2,50€</p>
+                <p class="item">Cerveja Heineken</p>
+                <p class="preço">3,00€</p>
+            </div>
+
+            <!-- Coluna 2 -->
+            <div class="col-md-6">
+                <p class="category-title">GINS</p>
+                <p class="item">Gin Bombay Sapphire</p>
+                <p class="preço">8,00€</p>
+                <p class="item">Gin Hendrick's</p>
+                <p class="preço">9,00€</p>
+                <p class="item">Gin Beefeater</p>
+                <p class="preço">7,50€</p>
+                <p class="item">Gin Tanqueray</p>
+                <p class="preço">8,50€</p>
+
+                <p class="category-title">CHAMPANHE</p>
+                <p class="item">Moët & Chandon Brut</p>
+                <p class="preço">60,00€</p>
+                <p class="item">Veuve Clicquot Brut</p>
+                <p class="preço">70,00€</p>
+                <p class="item">Dom Pérignon</p>
+                <p class="preço">120,00€</p>
+
+                <p class="category-title">COCKTAILS</p>
+                <p class="item">Poncha</p>
+                <p class="preço">4,00€</p>
+                <p class="item">Mojito</p>
+                <p class="preço">6,00€</p>
+                <p class="item">Caipirinha</p>
+                <p class="preço">7,00€</p>
+                <p class="item">Pina Colada</p>
+                <p class="preço">8,00€</p>
+                <p class="item">Sex on the Beach</p>
+                <p class="preço">7,50€</p>
+                <p class="item">Margarita</p>
+                <p class="preço">8,00€</p>
+                <p class="item">Cosmopolitan</p>
+                <p class="preço">8,50€</p>
+                <p class="item">Tequila Sunrise</p>
+                <p class="preço">7,00€</p>
+
+
+            </div>
+            <p> <a href="../menu restaurante para QR2.pdf" target="_blank">
+              <img src="../img/codigo QR.png" alt="PDF do Menu" style="width: 100px;margin-bottom: 20px;margin-left: 600px; margin-top: -75px;">
+              
+            </a>
+            </p>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+<footer class="bg-dark text-white py-2">
+  <div class="container">
+    <div class="row text-center">
+      
+    <!-- Coluna 1: Redes Sociais -->
+    <div class="col-md-4">
+      <p style="margin-top: 50px;">Follow us</p>
+      <p>  
+        <div class="redes_sociais row" >
+      
+          <div class="instagram col">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="../img/instagram.png" alt="Instagram" style="margin-right: -140px;">
+          </a>
+        </div>
+        <div class="facebook col">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook" style="margin-left: -140px;"></i> <!-- a cor do icon facebook alterada para amarelo-->
+          </a>
+          </div>
+         
+        </div>
+      </p>
+      <p><img src="../img/logotipo.png" alt="footer-logotipo" class="footer-logotipo" style="margin-top: 10px;"></p>
+    </div>
+
+      <!-- Coluna 2: Links de Navegação (Centro) -->
+      <div class="col-md-4">
+        <p style="margin-top: 20px;"><a href="../index.html" class="footer-link">Início</a></p>
+        <p><a href="../html/sobre.html" class="footer-link">Sobre</a></p>
+        <p><a href="#" class="footer-link">Menu</a></p>
+        <p><a href="../html/contactos.html" class="footer-link">Contatos</a></p>
+        <p><a href="../html/ofertas.html" class="footer-link">Ofertas</a></p>
+      </div>
+
+      <!-- Coluna 3: Contato e Políticas -->
+      <div class="col-md-4">
+        <p style="margin-top: 50px;"><a href="../html/contactos.html#reservas" class="footer-link" target="_blank">reservas@madeirasabores.com</a></p>
+        <p> <a href="http://www.livroreclamacoes.pt/Inicio/" target="_blank" rel="noopener noreferrer">Livro de Reclamações</a><!-- nota para o email usei a link em que abre uma página na minha páginas e para o livro de reclamações e a politica de privacidade usei o a blanck que abre noutro semparador -->
+        <p> <a href="https://ahresp.com/" target="_blank" rel="noopener noreferrer">Política de Privacidade</a>
+      
+      </div>
+     
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
